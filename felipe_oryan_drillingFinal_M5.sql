@@ -66,7 +66,7 @@ FROM payment
 GROUP BY DATE(payment_date);
 
 
---Listar todas las "film" del año 2006 que contengan un (rental_rate) mayor a 4.0 ERROR ERROR ERROR
+--Listar todas las "film" del año 2006 que contengan un (rental_rate) mayor a 4.0
 select * from film where release_year = 2006 and rental_rate > 4.0;
 
 
